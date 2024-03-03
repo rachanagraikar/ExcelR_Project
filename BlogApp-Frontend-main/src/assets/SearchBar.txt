@@ -1,0 +1,15 @@
+            
+            
+            <form className="d-flex" role="search">
+              <input
+                className="form-control  fw-light "
+                style={{ borderRadius: "100px" }}
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="btn" type="submit">
+                <FontAwesomeIcon icon={faSearch} />
+              </button>
+              &nbsp;&nbsp;
+            </form>

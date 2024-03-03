@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.createPost {
+  flex-grow: 1;
+  /* background: #000; */
+}
+
+.navbarHeader {
+  width: 100vw;
+  /* text-align: center; */
+}
+
+#myButton {
+  background-color: #000;
+  border-radius: 100px;
+  color: #fff;
+  /* padding: 5px 25px; */
+}
+
+.myButton {
+  background-color: #000;
+  border-radius: 100px;
+  color: #fff;
+}
+
+.beInspired {
+  font-size: 128px;
+}
+
+.tagline {
+  font-size: 48px;
+}
+
+/* ----------Password container */
+.password-container {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 20%;
+  right: 4%;
+}
+
+/* footer */
+#emailBtn:hover {
+  cursor: pointer;
+}
+
+/*-----------Media Queries for screen */
+
+@media (max-width: 1400px) {
+  .beInspired {
+    font-size: 100px;
+  }
+
+  .tagline {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .beInspired {
+    font-size: 90px;
+  }
+  .tagline {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  .beInspired {
+    font-size: 75px;
+  }
+  .tagline {
+    font-size: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .beInspired {
+    font-size: 65px;
+  }
+  .tagline {
+    font-size: 20px;
+  }
+}
